@@ -1,34 +1,33 @@
-name: Deploy Docs to GitHub Pages
+name: Deploy Docs
 
 on:
   push:
-    branches: [ main ] 
+    branches: [ main ]
+
+permissions:  
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
       - name: Install dependencies
         run: |
-          pip install -e .
-          pip install sphinx sphinx-book-theme myst-parser nbsphinx sphinx-copybutton pyfiglet
+          pip install sphinx sphinx-rtd-theme
+          cd docs && make html
 
-      - name: Build docs
-        run: |
-          cd docs
-          make clean
-          make html
-
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build/html  
-          keep_files: false  
+          publish_dir: ./docs/build/html
+          force_orphan: true  
