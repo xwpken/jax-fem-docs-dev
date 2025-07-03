@@ -38,6 +38,14 @@ autodoc_default_options = {
 
 autodoc_typehints = 'description'
 
+
+autodoc_mock_imports = ["*"]  
+autodoc_docstring_signature = False
+
+nbsphinx_execute = 'never' 
+
+python_use_unqualified_type_names = True
+
 myst_enable_extensions = [
     "amsmath",             
     "dollarmath",          
