@@ -5,7 +5,7 @@ A GPU-accelerated differentiable finite element analysis package based on [JAX](
 ![Github Fork](https://img.shields.io/github/forks/deepmodeling/jax-fem)
 ![License](https://img.shields.io/github/license/deepmodeling/jax-fem)
 
-FEM is a powerful tool, where we support the following features
+FEM is a powerful tool, where we support the following features.
 
 - 2D quadrilateral/triangle elements
 - 3D hexahedron/tetrahedron elements
