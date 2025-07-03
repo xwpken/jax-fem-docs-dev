@@ -58,13 +58,13 @@ save_sol(problem.fes[0], sol[0], vtk_path)
 and run it:
 
 ```bash
-python example.py
+python
 ```
 
 Besides, you can also check `demos/` for a variety of FEM cases. For example, run
 
 ```bash
-python -m demos.hyperelasticity.example
+python 
 ```
 
 for hyperelasticity. 
@@ -72,7 +72,7 @@ for hyperelasticity.
 Also, 
 
 ```bash
-python -m tests.benchmarks
+python 
 ```
 
 will execute a set of test cases.
