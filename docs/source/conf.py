@@ -44,6 +44,8 @@ autodoc_docstring_signature = False
 
 nbsphinx_execute = 'never' 
 
+highlight_language = 'none'
+
 python_use_unqualified_type_names = True
 
 myst_enable_extensions = [
