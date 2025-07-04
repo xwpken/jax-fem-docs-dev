@@ -27,37 +27,37 @@ FEM is a powerful tool, where we support the following features.
 - Weak form is now defined through  volume integral and surface integral. We can now treat body force, "mass kernel" and "Laplace kernel" in a unified way through volume integral, and treat "Neumann B.C." and "Robin B.C." in a unified way through surface integral. 
 
 <p align="middle">
-  <img src="images/ded.gif" width="600" />
+  <img src="docs/source/_static/images/ded.gif" width="600" />
 </p>
 <p align="middle">
     <em >Thermal profile in direct energy deposition.</em>
 </p>
 
 <p align="middle">
-  <img src="images/von_mises.png" width="400" />
+  <img src="docs/source/_static/images/von_mises.png" width="400" />
 </p>
 <p align="middle">
     <em >Linear static analysis of a bracket.</em>
 </p>
 
 <p align="middle">
-  <img src="images/polycrystal_grain.gif" width="360" />
-  <img src="images/polycrystal_stress.gif" width="360" />
+  <img src="docs/source/_static/images/polycrystal_grain.gif" width="360" />
+  <img src="docs/source/_static/images/polycrystal_stress.gif" width="360" />
 </p>
 <p align="middle">
     <em >Crystal plasticity: grain structure (left) and stress-xx (right).</em>
 </p>
 
 <p align="middle">
-  <img src="images/stokes_u.png" width="360" />
-  <img src="images/stokes_p.png" width="360" />
+  <img src="docs/source/_static/images/stokes_u.png" width="360" />
+  <img src="docs/source/_static/images/stokes_p.png" width="360" />
 </p>
 <p align="middle">
     <em >Stokes flow: velocity (left) and pressure(right).</em>
 </p>
 
 <p align="middle">
-  <img src="images/to.gif" width="600" />
+  <img src="docs/source/_static/images/to.gif" width="600" />
 </p>
 <p align="middle">
     <em >Topology optimization with differentiable simulation.</em>
@@ -182,7 +182,7 @@ save_sol(problem.fes[0], sol[0], vtk_path)
 By running the code above and use [Paraview](https://www.paraview.org/) for visualization, you should see the following solution.
 
 <p align="middle">
-  <img src="images/poisson.png" width="400" />
+  <img src="docs/source/_static/images/poisson.png" width="400" />
 </p>
 <p align="middle">
     <em >Solution to the Poisson's equation due to a source term.</em>

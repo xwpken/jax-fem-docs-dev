@@ -65,7 +65,7 @@ python example.py
 The generated result file `u.vtu` can be visualized with [ParaView](https://www.paraview.org/).
 
 <p align="middle">
-  <img src="../../../../images/poisson.png" width="400" />
+  <img src="../_static/images/poisson.png" width="400" />
 </p>
 <p align="middle">
     <em >Solution to the Poisson's equation due to a source term.</em>
