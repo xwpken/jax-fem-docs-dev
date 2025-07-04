@@ -1,8 +1,9 @@
 ## Quick start
 
-You can create an `example.py` file:
+You can create an `example.py` to solve the classical Poisson's equation:
 
 ```python
+
 import jax
 import jax.numpy as np
 import os
@@ -58,21 +59,45 @@ save_sol(problem.fes[0], sol[0], vtk_path)
 and run it:
 
 ```bash
-python
+python example.py
 ```
 
-Besides, you can also check `demos/` for a variety of FEM cases. For example, run
+The generated result file `u.vtu` can be visualized with [ParaView](https://www.paraview.org/).
+
+<p align="middle">
+  <img src="../../../../images/poisson.png" width="400" />
+</p>
+<p align="middle">
+    <em >Solution to the Poisson's equation due to a source term.</em>
+</p>
+
+You can also check [`demos/`](https://github.com/deepmodeling/jax-fem/tree/main/demos) for a variety of FEM cases. 
+
+
+| Example                                                      | Highlight                                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [poisson](https://github.com/deepmodeling/jax-fem/tree/main/demos/poisson) | ${\color{green}Basics:}$  Poisson's equation in a unit square domain with Dirichlet and Neumann boundary conditions, as well as a source term. |
+| [linear_elasticity](https://github.com/deepmodeling/jax-fem/tree/main/demos/linear_elasticity) | ${\color{green}Basics:}$  Bending of a linear elastic beam due to Dirichlet and Neumann boundary conditions. Second order tetrahedral element (TET10) is used. |
+| [hyperelasticity](https://github.com/deepmodeling/jax-fem/tree/main/demos/hyperelasticity) | ${\color{blue}Nonlinear \space Constitutive \space Law:}$ Deformation of a hyperelastic cube due to Dirichlet boundary conditions. |
+| [plasticity](https://github.com/deepmodeling/jax-fem/tree/main/demos/plasticity) | ${\color{blue}Nonlinear \space Constitutive \space Law:}$ Perfect J2-plasticity model is implemented for small deformation theory. |
+| [phase_field_fracture](https://github.com/deepmodeling/jax-fem/tree/main/demos/phase_field_fracture) | ${\color{orange}Multi-physics \space Coupling:}$ Phase field fracture model is implemented. Staggered scheme is used for two-way coupling of displacement field and damage field. Miehe's model of spectral decomposition is implemented for a 3D case. |
+| [thermal_mechanical](https://github.com/deepmodeling/jax-fem/tree/main/demos/thermal_mechanical) | ${\color{orange}Multi-physics \space Coupling:}$ Thermal-mechanical modeling of metal additive manufacturing process. One-way coupling is implemented (temperature affects displacement). |
+| [thermal_mechanical_full](https://github.com/deepmodeling/jax-fem/tree/main/demos/thermal_mechanical_full) | ${\color{orange}Multi-physics \space Coupling:}$ Thermal-mechanical modeling of 2D plate. Two-way coupling (temperature and displacement) is implemented with a monolithic scheme. |
+| [wave](https://github.com/deepmodeling/jax-fem/tree/main/demos/wave) | ${\color{lightblue}Time \space Dependent \space Problem:}$ The scalar wave equation is solved with backward difference scheme. |
+| [topology_optimization](https://github.com/deepmodeling/jax-fem/tree/main/demos/topology_optimization) | ${\color{red}Inverse \space Problem:}$ SIMP topology optimization for a 2D beam. Note that sensitivity analysis is done by the program, rather than manual derivation. |
+| [inverse](https://github.com/deepmodeling/jax-fem/tree/main/demos/inverse) | ${\color{red}Inverse \space Problem:}$ Sanity check of how automatic differentiation works. |
+
+
+
+For example, run
 
 ```bash
-python 
+python -m demos.hyperelasticity.example
 ```
-
-for hyperelasticity. 
-
-Also, 
+for hyperelasticity. Also, run
 
 ```bash
-python 
+python -m tests.benchmarks
 ```
 
 will execute a set of test cases.

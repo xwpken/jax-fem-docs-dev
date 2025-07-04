@@ -10,16 +10,45 @@ Welcome to JAX-FEM's documentation!
 .. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 .. documentation for details.
 
-|
-.. image:: _static/von_mises.png
-   :width: 300px
-   :align: center
-|
-
 JAX-FEM is a GPU-accelerated differentiable finite element analysis package based on `JAX <https://github.com/google/jax>`_. Used to be part of the suite of open-source python packages for Additive Manufacturing (AM) research, `JAX-AM <https://github.com/tianjuxue/jax-am>`_.
 
 .. raw:: html
-   <div style="clear: both;"></div>
+
+   <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+   <figure style="margin: 0; text-align: center;">
+      <img src="../../../images/von_mises.png" style="height: 200px; width: auto; object-fit: contain;" />
+      <figcaption>Linear static analysis of a bracket.</figcaption>
+   </figure>
+   <figure style="margin: 0; text-align: center;">
+      <img src="../../../images/to.gif" style="height: 200px; width: auto; object-fit: contain;" />
+      <figcaption>Topology optimization with differentiable simulation.</figcaption>
+   </figure>
+   </div>
+
+   <p align="middle">
+   <img src="../../../images/stokes_u.png" width="260" />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <img src="../../../images/stokes_p.png" width="260" />
+   </p>
+   <p align="middle">
+      <em >Stokes flow: velocity (left) and pressure(right).</em>
+   </p>
+
+   <p align="middle">
+   <img src="../../../images/polycrystal_grain.gif" width="260" />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <img src="../../../images/polycrystal_stress.gif" width="260" />
+   </p>
+   <p align="middle">
+      <em >Crystal plasticity: grain structure (left) and stress-xx (right).</em>
+   </p>
+
+   <p align="middle">
+   <img src="../../../images/ded.gif" width="500" />
+   </p>
+   <p align="middle">
+      <em >Thermal profile in direct energy deposition.</em>
+   </p>
 
 .. toctree::
    :maxdepth: 3  
@@ -35,13 +64,16 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    :maxdepth: 2
    :caption: Learn by examples
    :hidden:
-   
-   Gradient computation <examples/poisson>
+
+   Linear elasticity <examples/linear_elasticity>
 
    Hyperelasticity <examples/hyperelasticity>
 
+   Inverse problem <examples/inverse>
+
    Plasticity <examples/plasticity>
-   
+
+   Topology optimization <examples/topology_optimization>
 
 .. toctree::
    :maxdepth: 2

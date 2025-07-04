@@ -1,14 +1,17 @@
 ## Installation
 
-Create a conda environment from the given [`environment.yml`](https://github.com/deepmodeling/jax-fem/blob/main/environment.yml) file and activate it:
+Create a [conda](https://docs.conda.io/en/latest/?ref=learnubuntu.com) environment from the given [`environment.yml`](https://github.com/deepmodeling/jax-fem/blob/main/environment.yml) file and activate it:
 
 ```bash
 conda env create -f environment.yml
 conda activate jax-fem-env
 ```
 
-Install JAX
-- See jax installation [instructions](https://github.com/jax-ml/jax?tab=readme-ov-file#installation). Depending on your hardware, you may install the CPU or GPU version of JAX. Both will work, while GPU version usually gives better performance.
+Several remarks:
+
+* JAX-FEM depends on JAX. Please follow the official [instructions](https://github.com/jax-ml/jax?tab=readme-ov-file#installation) to install JAX according to your hardware.
+  
+* Both CPU or GPU version of JAX will work, while GPU version usually gives better performance. 
 
 
 Then there are two options to continue:

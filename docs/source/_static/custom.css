@@ -3,3 +3,12 @@
     margin: 10em 0;
     display: block;
 }
+
+table tr:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  cursor: default !important;
+}
+table td:hover, table th:hover {
+  background-color: transparent !important;
+}

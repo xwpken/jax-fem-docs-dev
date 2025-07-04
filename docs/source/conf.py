@@ -66,7 +66,6 @@ html_theme_options = {
     # "use_edit_page_button": True,      # "Edit on GitHub" 
     # "use_issues_button": True,         # "Open Issue" 
     "show_navbar_depth": 2,             
-    "logo_only": True,
     "show_navbar_depth": 3,  
     "navigation_depth": 5,   
     "collapse_navigation": True,  
