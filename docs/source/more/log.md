@@ -12,7 +12,7 @@
   * ...
 
 
-## JAX-FEM 0.0.8 (Oct 30, 2025)
+## JAX-FEM 0.0.8 (Oct 30, 2024)
 
 * New features:
   * ...

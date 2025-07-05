@@ -1,7 +1,7 @@
 Advanced examples
 =================
 
-For educational purpose, we post advanced examples:
+For educational purpose, we post some advanced examples:
 
 | Example                                                                                     | Highlight                                                                                     |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
