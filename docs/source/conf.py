@@ -32,7 +32,7 @@ extensions = ['sphinx.ext.autodoc',
               'nbsphinx']
 
 templates_path = ['_templates']
-exclude_patterns = ['**.ipynb', '**.ipynb_checkpoints']
+exclude_patterns = []
 
 autodoc_default_options = {
     'modules': ['jax_fem'],
@@ -43,6 +43,17 @@ autodoc_default_options = {
     'special-members': False,
 }
 
+autodoc_mock_imports = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "meshio",
+    "petsc4py",
+    "fenics",
+    "gmsh",
+    "fenics_basix",
+    "pyfiglet"
+]
 
 autodoc_typehints = 'description'
 
