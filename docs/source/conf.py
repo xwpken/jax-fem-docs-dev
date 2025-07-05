@@ -35,6 +35,7 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 autodoc_default_options = {
+    'modules': ['jax_fem'],
     'members': True,
     'undoc-members': True,
     'inherited-members': True,
