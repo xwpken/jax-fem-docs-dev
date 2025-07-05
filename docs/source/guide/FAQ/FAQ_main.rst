@@ -7,8 +7,8 @@ Categories
 .. toctree::
    :maxdepth: 1
 
-   About mesh <FAQ_mesh>
-   About solver <FAQ_solver>
+   About mesh <./FAQ_mesh>
+   About solver <./FAQ_solver>
 
 
 Remarks
