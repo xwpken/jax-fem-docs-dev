@@ -44,7 +44,7 @@ autodoc_default_options = {
 autodoc_mock_imports = [
     "jax",
     "numpy",
-    "basix"
+    "basix",
     "scipy",
     "matplotlib",
     "meshio",
