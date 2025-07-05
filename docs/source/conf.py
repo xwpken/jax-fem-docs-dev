@@ -22,6 +22,7 @@ release = '0.0.9'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.autosummary',
               'sphinx.ext.viewcode', 
               'sphinx.ext.napoleon',
               "sphinx.ext.mathjax",
@@ -60,6 +61,8 @@ autodoc_typehints = 'description'
 # autodoc
 autodoc_docstring_signature = False
 
+autosummary_generate = True
+
 # ipynb
 nbsphinx_execute = 'never' 
 # nbsphinx_allow_errors = True 
@@ -86,9 +89,8 @@ html_theme_options = {
     "repository_url": "https://github.com/xwpken/jax-fem-docs-dev",  
     "use_repository_button": True,     # GitHub
     # "use_edit_page_button": True,      # "Edit on GitHub" 
-    # "use_issues_button": True,         # "Open Issue" 
-    "show_navbar_depth": 2,             
-    "show_navbar_depth": 3,  
+    # "use_issues_button": True,         # "Open Issue"            
+    "show_navbar_depth": 1,  
     "navigation_depth": 5,   
     "collapse_navigation": True,  
     "globaltoc_includehidden": True,                  

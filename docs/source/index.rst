@@ -62,7 +62,7 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    Installation <guide/Installation>
    Quickstart <guide/Quickstart>
    
-   Frequently asked questions (FAQ) <guide/FAQ/index>
+   Frequently asked questions (FAQ) <guide/FAQ/FAQ_main>
 
 .. toctree::
    :maxdepth: 2
@@ -86,7 +86,7 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
 
    Advanced examples <more/advanced>
 
-   API reference <more/api>
+   API reference <more/api/api_main>
 
    Change log <more/log>
 
