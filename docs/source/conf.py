@@ -45,6 +45,7 @@ autodoc_docstring_signature = False
 # ipynb
 nbsphinx_execute = 'never' 
 nbsphinx_allow_errors = True 
+nbsphinx_ignore_errors = True
 
 
 highlight_language = 'none'
