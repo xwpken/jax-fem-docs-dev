@@ -9,8 +9,6 @@ sys.path.insert(0, os.path.abspath('../../jax_fem'))
 if '/docs' in str(sys.path):
     sys.path.remove('/docs')
 
-autodoc_mock_imports = ["*"] 
-
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
