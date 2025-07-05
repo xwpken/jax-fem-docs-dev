@@ -17,11 +17,11 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
    <figure style="margin: 0; text-align: center;">
       <img src="_static/images/von_mises.png" style="height: 200px; width: auto; object-fit: contain;" />
-      <figcaption>Linear static analysis of a bracket.</figcaption>
+      <p style="margin-top: 10px;"><em>Linear static analysis of a bracket.</em></p>
    </figure>
    <figure style="margin: 0; text-align: center;">
       <img src="_static/images/to.gif" style="height: 200px; width: auto; object-fit: contain;" />
-      <figcaption>Topology optimization with differentiable simulation.</figcaption>
+      <p style="margin-top: 10px;"><em>Topology optimization with differentiable simulation.</em></p>
    </figure>
    </div>
 
@@ -45,14 +45,14 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
       </figure>
    </div>
    <p style="text-align: center; margin-top: 10px;"><em>Crystal plasticity: grain structure (left) and stress-xx (right).</em></p>
-   
+
 
    <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
       <figure style="margin: 0; text-align: center;">
          <img src="_static/images/ded.gif" style="height: 280px; width: auto; object-fit: contain;" />
-         <figcaption>Thermal profile in direct energy deposition</figcaption>
       </figure>
    </div>
+   <p style="text-align: center; margin-top: 10px;"><em>Thermal profile in direct energy deposition.</em></p>
 
 .. toctree::
    :maxdepth: 3  
