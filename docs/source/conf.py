@@ -6,6 +6,9 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../../jax_fem'))  
+if '/docs' in str(sys.path):
+    sys.path.remove('/docs')
+
 
 autodoc_mock_imports = ["*"] 
 
