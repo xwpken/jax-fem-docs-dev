@@ -58,7 +58,6 @@ autodoc_mock_imports = [
 autodoc_typehints = 'description'
 
 # autodoc
-autodoc_mock_imports = ["*"]  
 autodoc_docstring_signature = False
 
 # ipynb
