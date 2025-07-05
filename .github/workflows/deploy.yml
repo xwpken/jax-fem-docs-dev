@@ -22,6 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install -e .
           pip install sphinx sphinx-book-theme myst-parser nbsphinx sphinx-copybutton
           cd docs && make html
 
