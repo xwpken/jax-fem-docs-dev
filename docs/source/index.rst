@@ -59,25 +59,25 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    :caption: User Guide
    :hidden:
 
-   Installation <user_guide/Installation>
-   Quickstart <user_guide/Quickstart>
+   Installation <guide/Installation>
+   Quickstart <guide/Quickstart>
    
-   Frequently asked questions (FAQ) <user_guide/FAQ/index>
+   Frequently asked questions (FAQ) <guide/FAQ/index>
 
 .. toctree::
    :maxdepth: 2
    :caption: Learn by examples
    :hidden:
 
-   Linear elasticity <examples/linear_elasticity>
+   Linear elasticity <learn/linear_elasticity>
 
-   Hyperelasticity <examples/hyperelasticity>
+   Hyperelasticity <learn/hyperelasticity>
 
-   Inverse problem <examples/inverse>
+   Inverse problem <learn/inverse>
 
-   Plasticity <examples/plasticity>
+   Plasticity <learn/plasticity>
 
-   Topology optimization <examples/topology_optimization>
+   Topology optimization <learn/topology_optimization>
 
 .. toctree::
    :maxdepth: 2

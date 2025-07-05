@@ -12,3 +12,7 @@ table tr:hover {
 table td:hover, table th:hover {
   background-color: transparent !important;
 }
+
+.prompt {
+    display: none !important;
+}

@@ -38,11 +38,14 @@ autodoc_default_options = {
 
 autodoc_typehints = 'description'
 
-
+# autodoc
 autodoc_mock_imports = ["*"]  
 autodoc_docstring_signature = False
 
+# ipynb
 nbsphinx_execute = 'never' 
+nbsphinx_allow_errors = True 
+
 
 highlight_language = 'none'
 
