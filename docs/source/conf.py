@@ -45,6 +45,7 @@ autodoc_default_options = {
 
 autodoc_mock_imports = [
     "numpy",
+    "basix"
     "scipy",
     "matplotlib",
     "meshio",
