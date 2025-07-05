@@ -32,7 +32,7 @@ extensions = ['sphinx.ext.autodoc',
               'nbsphinx']
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['**.ipynb', '**.ipynb_checkpoints']
 
 autodoc_default_options = {
     'modules': ['jax_fem'],
