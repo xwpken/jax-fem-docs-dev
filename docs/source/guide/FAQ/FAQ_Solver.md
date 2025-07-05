@@ -7,8 +7,6 @@
 * How to change solver options?
 > ...
 
-* How to ...?
-> ...
 
 
 
