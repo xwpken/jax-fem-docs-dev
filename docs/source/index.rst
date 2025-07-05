@@ -25,13 +25,15 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    </figure>
    </div>
 
-   <div style="display: flex; flex-direction: column; align-items: center;">
-      <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
+   <div style="display: flex; justify-content: center; align-items: flex-start; gap: 60px;">
+      <figure style="margin: 0; text-align: center;">
          <img src="_static/images/stokes_u.png" style="height: 200px; width: auto; object-fit: contain;" />
+      </figure>
+      <figure style="margin: 0; text-align: center;">
          <img src="_static/images/stokes_p.png" style="height: 200px; width: auto; object-fit: contain;" />
-      </div>
-      <p style="text-align: center; margin-top: 10px;"><em>Stokes flow: velocity (left) and pressure(right).</em></p>
+      </figure>
    </div>
+   <p style="text-align: center; margin-top: 10px;"><em>Stokes flow: velocity (left) and pressure(right).</em></p>
 
    <div style="display: flex; flex-direction: column; align-items: center;">
       <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
