@@ -9,7 +9,6 @@ sys.path.insert(0, os.path.abspath('../../jax_fem'))
 if '/docs' in str(sys.path):
     sys.path.remove('/docs')
 
-
 autodoc_mock_imports = ["*"] 
 
 
@@ -35,12 +34,14 @@ extensions = ['sphinx.ext.autodoc',
 templates_path = ['_templates']
 exclude_patterns = []
 
-
 autodoc_default_options = {
     'members': True,
-    'undoc-members': True,  
+    'undoc-members': True,
     'inherited-members': True,
+    'imported-members': False,
+    'special-members': False,
 }
+
 
 autodoc_typehints = 'description'
 
