@@ -35,19 +35,23 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    </div>
    <p style="text-align: center; margin-top: 10px;"><em>Stokes flow: velocity (left) and pressure(right).</em></p>
 
-   <div style="display: flex; flex-direction: column; align-items: center;">
-      <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
-         <img src="_static/images/polycrystal_grain.gif" style="height: 260px; width: auto; object-fit: contain;" />
-         <img src="_static/images/polycrystal_stress.gif" style="height: 260px; width: auto; object-fit: contain;" />
-      </div>
-      <p style="text-align: center; margin-top: 10px;"><em>Crystal plasticity: grain structure (left) and stress-xx (right).</em></p>
-   </div>
 
-   <div style="display: flex; flex-direction: column; align-items: center;">
-      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+   <div style="display: flex; justify-content: center; align-items: flex-start; gap: 60px;">
+      <figure style="margin: 0; text-align: center;">
+         <img src="_static/images/polycrystal_grain.gif" style="height: 260px; width: auto; object-fit: contain;" />
+      </figure>
+      <figure style="margin: 0; text-align: center;">
+         <img src="_static/images/polycrystal_stress.gif" style="height: 260px; width: auto; object-fit: contain;" />
+      </figure>
+   </div>
+   <p style="text-align: center; margin-top: 10px;"><em>Crystal plasticity: grain structure (left) and stress-xx (right).</em></p>
+   
+
+   <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+      <figure style="margin: 0; text-align: center;">
          <img src="_static/images/ded.gif" style="height: 280px; width: auto; object-fit: contain;" />
-      </div>
-      <p style="text-align: center; margin-top: 10px;"><em>Thermal profile in direct energy deposition.</em></p>
+         <figcaption>Thermal profile in direct energy deposition</figcaption>
+      </figure>
    </div>
 
 .. toctree::
