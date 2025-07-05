@@ -25,30 +25,28 @@ JAX-FEM is a GPU-accelerated differentiable finite element analysis package base
    </figure>
    </div>
 
-   <p align="middle">
-   <img src="_static/images/stokes_u.png" width="260" />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <img src="_static/images/stokes_p.png" width="260" />
-   </p>
-   <p align="middle">
-      <em >Stokes flow: velocity (left) and pressure(right).</em>
-   </p>
+   <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
+         <img src="_static/images/stokes_u.png" style="height: 200px; width: auto; object-fit: contain;" />
+         <img src="_static/images/stokes_p.png" style="height: 200px; width: auto; object-fit: contain;" />
+      </div>
+      <p style="text-align: center; margin-top: 10px;"><em>Stokes flow: velocity (left) and pressure(right).</em></p>
+   </div>
 
-   <p align="middle">
-   <img src="_static/images/polycrystal_grain.gif" width="260" />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <img src="_static/images/polycrystal_stress.gif" width="260" />
-   </p>
-   <p align="middle">
-      <em >Crystal plasticity: grain structure (left) and stress-xx (right).</em>
-   </p>
+   <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
+         <img src="_static/images/polycrystal_grain.gif" style="height: 260px; width: auto; object-fit: contain;" />
+         <img src="_static/images/polycrystal_stress.gif" style="height: 260px; width: auto; object-fit: contain;" />
+      </div>
+      <p style="text-align: center; margin-top: 10px;"><em>Crystal plasticity: grain structure (left) and stress-xx (right).</em></p>
+   </div>
 
-   <p align="middle">
-   <img src="_static/images/ded.gif" width="500" />
-   </p>
-   <p align="middle">
-      <em >Thermal profile in direct energy deposition.</em>
-   </p>
+   <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+         <img src="_static/images/ded.gif" style="height: 280px; width: auto; object-fit: contain;" />
+      </div>
+      <p style="text-align: center; margin-top: 10px;"><em>Thermal profile in direct energy deposition.</em></p>
+   </div>
 
 .. toctree::
    :maxdepth: 3  
